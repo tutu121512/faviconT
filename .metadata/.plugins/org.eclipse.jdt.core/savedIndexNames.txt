@@ -7,8 +7,8 @@ INDEX VERSION 1.127+C:\Users\tutu1\Documents\GitHub\faviconT\.metadata\.plugins\
 2386522747.index
 808374113.index
 3407430047.index
-1623327007.index
 1248059796.index
+1623327007.index
 1545884011.index
 2133282975.index
 652460529.index
@@ -22,12 +22,11 @@ INDEX VERSION 1.127+C:\Users\tutu1\Documents\GitHub\faviconT\.metadata\.plugins\
 3164245942.index
 905968861.index
 3617509581.index
-351221734.index
+3031041816.index
 2019903893.index
 618723895.index
 2800558102.index
-3031041816.index
-2116517736.index
+351221734.index
 1075794691.index
 2497497286.index
 471236001.index

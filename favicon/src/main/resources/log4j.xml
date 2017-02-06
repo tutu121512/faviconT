@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="favicon.Tour.controller">
+	<logger name="favicon.controller.ex">
 		<level value="info" />
 	</logger>
 	
