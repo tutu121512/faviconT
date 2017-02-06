@@ -15,7 +15,7 @@
 	<script src='<c:url value="/resources/prahaMainGallery/js/modernizr.custom.js"/>'></script>
     
 </head>
-<body onresize="parent.resizeTo(1200,900)" onload="parent.resizeTo(1200,900)">
+<body onresize="parent.resizeTo(1200,950)" onload="parent.resizeTo(1200,950)">
 	
 	<jsp:include page="/WEB-INF/views/main/header.jsp"/>
 	
