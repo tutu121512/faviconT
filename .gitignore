@@ -79,3 +79,4 @@ local.properties
 .metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
 *.gen
 .metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+.metadata/.log
