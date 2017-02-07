@@ -14,18 +14,18 @@
 <body>
 	<jsp:include page="/WEB-INF/views/main/header.jsp"/>
 
-	<div>
-		<form>
-			<div>
-			<textArea cols="40" rows="20" style="float:left" placeholder="문의 내용을 입력해주세요. 카카오톡 ID를 남겨주시면 연락이 편합니다."></textArea>
+	<form>
+		<div id="main_content" style="background-color: maroon;margin-top: 16px;">
+			<div style="height:148px">
+			<textArea style="margin-left:10px; float:left; height:90%; width:50%" placeholder="문의 내용을 입력해주세요. 카카오톡 ID를 남겨주시면 연락이 편합니다."></textArea>
+			<input type="submit" style="height: 150px;margin: 10px 0px 0px 10px; width: 70px;">
 			</div>
-			<div>
+			<div style="position: absolute">
 			<input type="text" placeholder="전화번호 입력">&nbsp;&nbsp;&nbsp;
 			<input type="text" placeholder="KakaoID 입력">
 			</div>
-			<input type="submit" style="height:150px">
-		</form>
-	</div>
+		</div>
+	</form>
 
 	<jsp:include page="/WEB-INF/views/main/footer.jsp"/>
 </body>
