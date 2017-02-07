@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 	@RequestMapping("/")
 	public String home(){
-		System.out.println("mainÀ¸·Î ÀÌµ¿ÇÕ´Ï´Ù.");
+		System.out.println("mainï¿½ï¿½ï¿½ï¿½  ï¿½Ìµï¿½ï¿½Õ´Ï´ï¿½.");
 		return "main/index";
 	}
 }
