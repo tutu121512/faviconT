@@ -21,8 +21,10 @@
 			<input type="submit" style="height: 150px;margin: 10px 0px 0px 10px; width: 70px;">
 			</div>
 			<div style="position: absolute">
-			<input type="text" placeholder="전화번호 입력">&nbsp;&nbsp;&nbsp;
-			<input type="text" placeholder="KakaoID 입력">
+			<input type="text" placeholder="사용자 이름" id="reserveName">
+			<input type="text" placeholder="전화번호 입력" id="phone">
+			<input type="text" placeholder="KakaoID 입력" id="kakaoId">
+			<input type="password" placeholder="비밀번호" id="password">
 			</div>
 		</div>
 	</form>

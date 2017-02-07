@@ -76,3 +76,4 @@ webtoon/
 *.xmi
 .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt
 *.index
+.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
