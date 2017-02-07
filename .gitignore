@@ -37,8 +37,6 @@ local.properties
 # Eclipse Core
 .project
 
-
-
 # External tool builders
 .externalToolBuilders/
 
@@ -72,18 +70,5 @@ local.properties
 # STS (Spring Tool Suite)
 .springBeans
 
-*.log
-.metadata/version.ini
-*.gen
-*.index
-.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
-*.gen
-.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
-.metadata/.log
-.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
-*.xmi
-.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
-*.index
-.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
-.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
-.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+# webtoon image
+webtoon/
