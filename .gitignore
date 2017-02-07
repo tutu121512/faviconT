@@ -75,3 +75,4 @@ webtoon/
 .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
 *.xmi
 .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt
+*.index
