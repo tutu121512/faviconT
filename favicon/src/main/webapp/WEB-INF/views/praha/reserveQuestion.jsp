@@ -14,43 +14,20 @@
 <body>
 	<jsp:include page="/WEB-INF/views/main/header.jsp"/>
 
-	<table class="striped" id="userManageList">
-	<thead>
-		<tr>
-			<th data-field="number">글 번호</th>
-			<th data-field="contentName">글 제목</th>
-			<th data-field="writer">작성자</th>
-			<th data-field="date">비밀번호</th>
-		</tr>
-		<tr>
-			<th>adf</th>
-			<th>adf</th>
-			<th>adf</th>
-			<th>adf</th>
-		</tr>
-		<tr>
-			<th>adf</th>
-			<th>adf</th>
-			<th>adf</th>
-			<th>adf</th>
-		</tr>
-		<tr>
-			<th>adf</th>
-			<th>adf</th>
-			<th>adf</th>
-			<th>adf</th>
-		</tr>
-		<tr>
-			<th>adf</th>
-			<th>adf</th>
-			<th>adf</th>
-			<th>adf</th>
-		</tr>
-	</thead>
-	<tbody>
-
-	</tbody>
-</table>
+	<form>
+		<div id="main_content" style="background-color: maroon;margin-top: 16px;">
+			<div style="height:148px">
+			<textArea style="margin-left:10px; float:left; height:90%; width:50%" placeholder="문의 내용을 입력해주세요. 카카오톡 ID를 남겨주시면 연락이 편합니다."></textArea>
+			<input type="submit" style="height: 150px;margin: 10px 0px 0px 10px; width: 70px;">
+			</div>
+			<div style="position: absolute">
+			<input type="text" placeholder="사용자 이름" id="reserveName">
+			<input type="text" placeholder="전화번호 입력" id="phone">
+			<input type="text" placeholder="KakaoID 입력" id="kakaoId">
+			<input type="password" placeholder="비밀번호" id="password">
+			</div>
+		</div>
+	</form>
 
 	<jsp:include page="/WEB-INF/views/main/footer.jsp"/>
 </body>
