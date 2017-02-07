@@ -14,15 +14,16 @@
 <body>
 	<jsp:include page="/WEB-INF/views/main/header.jsp"/>
 
-	<form>
-		<div id="main_content" style="background-color: maroon;margin-top: 16px;">
+	<form action="" method="post">
+		<div id="main_content" style="background-color: maroon;margin-top: 16px;padding: 0px;width:1000px;padding-left: 19%;">
 			<div style="height:148px">
-			<textArea style="margin-left:10px; float:left; height:90%; width:50%" placeholder="문의 내용을 입력해주세요. 카카오톡 ID를 남겨주시면 연락이 편합니다."></textArea>
+			<textArea style="margin-left:10px; float:left; height:90%; width:50%" placeholder="문의 내용을 입력해주세요. 카카오톡 ID를 남겨주시면 연락이 편합니다." id="content"></textArea>
 			<input type="submit" style="height: 150px;margin: 10px 0px 0px 10px; width: 70px;">
 			</div>
 			<div style="position: absolute">
-			<input type="text" placeholder="전화번호 입력">&nbsp;&nbsp;&nbsp;
-			<input type="text" placeholder="KakaoID 입력">
+			<input type="text" id="phone" placeholder="전화번호 입력">
+			<input type="text" id="kakaoId" placeholder="KakaoID 입력">
+			<input type="password" id="password" placeholder="비밀번호">
 			</div>
 		</div>
 	</form>
