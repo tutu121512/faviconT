@@ -7,12 +7,9 @@
     <title>Praha - Home</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<link rel="stylesheet" href='<c:url value="/resources/prahaMainGallery/css/component.css"/>'/>
     <link rel="stylesheet" href="<c:url value='/resources/stylesheets/reset.css'/>">
     <link rel="stylesheet" href="<c:url value='/resources/stylesheets/main.css'/>" >
-    <link rel="stylesheet" href='<c:url value="/resources/prahaMainGallery/css/default.css"/>'/>
     <script src='<c:url value="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"/>'></script>
-	<script src='<c:url value="/resources/prahaMainGallery/js/modernizr.custom.js"/>'></script>
     
 </head>
 <body onresize="parent.resizeTo(1200,950)" onload="parent.resizeTo(1200,950)">
